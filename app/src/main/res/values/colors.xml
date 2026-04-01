@@ -1,0 +1,5 @@
+<resources>
+    <color name="verde_producao">#2E7D32</color> <color name="verde_claro">#E8F5E9</color>    <color name="branco_puro">#FFFFFF</color>
+    <color name="cinza_fundo">#F5F7F6</color>   <color name="cinza_texto">#666666</color>
+
+    <color name="status_local">#9E9E9E</color>  <color name="status_sync">#2196F3</color>   <color name="status_ok">#4CAF50</color>     </resources>
