@@ -85,7 +85,7 @@ class AtivacaoActivity : ComponentActivity() {
                         Toast.makeText(this, "Licença inativa ou expirada!", Toast.LENGTH_SHORT).show()
                     }
                 } else {
-                    Toast.makeText(this, "ID não encontrado em fiscais_autorizados!", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Usuário Não Permitido!", Toast.LENGTH_LONG).show()
                 }
             }
             .addOnFailureListener { Toast.makeText(this, "Erro de conexão!", Toast.LENGTH_SHORT).show() }

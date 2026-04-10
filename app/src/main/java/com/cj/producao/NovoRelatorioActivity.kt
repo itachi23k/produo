@@ -41,12 +41,8 @@ val listaServicos = listOf(
                     "APLICAÇÃO DE CBUQ",
                     "CAMADA DE MACADAME SECO",
                     "CAMADA DE REFORÇO",
-                    "CANTEIRO DE OBRAS",
-                    "CHECKLIST DE EQUIPAMENTO",
-                    "DESCARREGAMENTO DE BALSA",
                     "ENROCAMENTO",
                     "EROSÃO",
-                    "ESTOQUE DE MATERIAL",
                     "EXECUÇÃO DE BUEIRO",
                     "EXECUÇÃO DE PONTILHÃO",
                     "FAIXA DE DOMÍNIO",
@@ -57,7 +53,6 @@ val listaServicos = listOf(
                     "LASTRO DE BRITA",
                     "LIMPEZA DE SARJETA",
                     "LIMPEZA DE VALA DE DRENAGEM",
-                    "PATRULHA DE EQUIPAMENTOS",
                     "PINTURA DE LIGAÇÃO",
                     "PLANTIO DE GRAMA",
                     "PONTE DE MADEIRA",
@@ -69,10 +64,7 @@ val listaServicos = listOf(
                     "REVESTIMENTO PRIMÁRIO 01",
                     "REVESTIMENTO PRIMÁRIO 02",
                     "ROÇADA",
-                    "SINALIZAÇÃO TEMPORÁRIA",
-                    "SINALIZAÇÃO VERTICAL",
                     "TAPA BURACO",
-                    "TEMPO CHUVOSO",
                     "VALA DE DRENAGEM"
 )
 val opcoesLado = listOf("D", "E", "D/E", "EIXO")

@@ -143,7 +143,10 @@ class ProducaoViewModel(application: Application) : AndroidViewModel(application
             "materiaisJson" to item.relatorio.materiaisJson,
             "segmentos" to item.segmentos.map {
                 mapOf(
-                    "estaca" to it.estacaInicial,
+                    "estacaInicial" to it.estacaInicial,
+                    "fracaoInicial" to it.fracaoInicial, // ADICIONADO
+                    "estacaFinal" to it.estacaFinal,     // ADICIONADO
+                    "fracaoFinal" to it.fracaoFinal,     // ADICIONADO
                     "lado" to it.lado,
                     "comprimento" to it.comprimento,
                     "largura" to it.largura,
