@@ -1,11 +1,10 @@
-package com.cj.producao.data
+package com.cj.transporte.data
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.pdf.PdfDocument
-import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import android.util.Base64
@@ -14,7 +13,7 @@ import android.view.View
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.core.content.FileProvider
-import com.cj.producao.R
+import com.cj.transporte.R
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream

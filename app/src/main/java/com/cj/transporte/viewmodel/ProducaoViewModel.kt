@@ -1,4 +1,4 @@
-package com.cj.producao.viewmodel
+package com.cj.transporte.viewmodel
 
 import android.app.Application
 import android.provider.Settings
@@ -9,7 +9,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.cj.producao.data.*
+import com.cj.transporte.data.*
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch

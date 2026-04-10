@@ -1,8 +1,7 @@
-package com.cj.producao.data
+package com.cj.transporte.data
 
 import android.content.Context
 import androidx.room.*
-import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 
 @Dao

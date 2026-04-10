@@ -1,4 +1,4 @@
-package com.cj.producao.data
+package com.cj.transporte.data
 
 import androidx.room.Embedded
 import androidx.room.Ignore

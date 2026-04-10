@@ -1,4 +1,4 @@
-package com.cj.producao
+package com.cj.transporte
 
 import android.content.Intent
 import android.os.Bundle
@@ -22,10 +22,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.cj.producao.data.*
-import com.cj.producao.ui.theme.ProducaoTheme
-import com.cj.producao.ui.theme.VerdeProducao
-import com.cj.producao.viewmodel.ProducaoViewModel
+import com.cj.transporte.data.*
+import com.cj.transporte.ui.theme.ProducaoTheme
+import com.cj.transporte.ui.theme.VerdeProducao
+import com.cj.transporte.viewmodel.ProducaoViewModel
 import androidx.compose.animation.animateColorAsState
 
 class HubActivity : ComponentActivity() {
