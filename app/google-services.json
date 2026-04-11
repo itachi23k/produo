@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:482477579606:android:8e1eab827efea5f61c0af7",
         "android_client_info": {
-          "package_name": "com.cj.producao"
+          "package_name": "com.cj.transporte"
         }
       },
       "oauth_client": [],
@@ -29,7 +29,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:482477579606:android:9628da5bff3686ac1c0af7",
         "android_client_info": {
-          "package_name": "com.cj.registrodecampo"
+          "package_name": "com.cj.transporte"
         }
       },
       "oauth_client": [],

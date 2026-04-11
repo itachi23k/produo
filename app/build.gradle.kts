@@ -82,4 +82,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.3.0")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 }
