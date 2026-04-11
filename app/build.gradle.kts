@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.cj.producao"
+    namespace = "com.cj.transporte"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.cj.producao"
+        applicationId = "com.cj.transporte"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

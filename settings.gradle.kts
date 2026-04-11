@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Produção"
+rootProject.name = "Ticket"
 include(":app")
  

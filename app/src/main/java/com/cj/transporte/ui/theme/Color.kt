@@ -1,4 +1,4 @@
-package com.cj.producao.ui.theme
+package com.cj.transporte.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

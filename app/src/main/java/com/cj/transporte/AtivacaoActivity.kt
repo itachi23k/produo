@@ -1,4 +1,4 @@
-package com.cj.producao
+package com.cj.transporte
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -18,18 +18,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.cj.producao.ui.theme.ProducaoTheme
-import com.cj.producao.ui.theme.VerdeProducao
+import com.cj.transporte.ui.theme.ProducaoTheme
+import com.cj.transporte.ui.theme.VerdeProducao
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.FirebaseFirestoreSettings
 import com.google.firebase.firestore.PersistentCacheSettings
 import com.google.firebase.firestore.Source
-import java.text.SimpleDateFormat
-import java.util.Locale
 
 class AtivacaoActivity : ComponentActivity() {
 

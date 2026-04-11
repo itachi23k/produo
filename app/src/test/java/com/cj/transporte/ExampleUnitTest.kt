@@ -1,4 +1,4 @@
-package com.cj.producao
+package com.cj.transporte
 
 import org.junit.Test
 
