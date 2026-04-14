@@ -42,18 +42,13 @@ class HubActivity : ComponentActivity() {
 
         // Configuração do Scanner
         barcodeLauncher = registerForActivityResult(ScanContract()) { result ->
-            if (result.contents == null) {
-                Toast.makeText(this, "Scanner Cancelado", Toast.LENGTH_SHORT).show()
-            } else {
-                // O QR Code contém: serial|placa|obra...
-                val serialScaneado = result.contents.split("|").getOrNull(0) ?: ""
-                if (serialScaneado.isNotEmpty()) {
-                    val intent = Intent(this, FormularioTicketActivity::class.java).apply {
-                        putExtra("MODO", "CHEGADA")
-                        putExtra("SERIAL_SCANEADO", serialScaneado)
-                    }
-                    startActivity(intent)
+            if (result.contents != null) {
+                // Passamos a string bruta (serial|placa|motorista...) para o formulário decompor
+                val intent = Intent(this, FormularioTicketActivity::class.java).apply {
+                    putExtra("MODO", "CHEGADA")
+                    putExtra("PAYLOAD_QR", result.contents)
                 }
+                startActivity(intent)
             }
         }
 

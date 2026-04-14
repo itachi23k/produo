@@ -41,6 +41,7 @@ class DetalheTicketActivity : ComponentActivity() {
 
                 LaunchedEffect(ticketId) {
                     if (ticketId != -1) {
+                        // Agora o ViewModel terá essa função e o erro sumirá
                         ticket = viewModel.buscarTicket(ticketId)
                     }
                 }
